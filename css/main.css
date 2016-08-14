@@ -12,14 +12,18 @@ input[type=password]{
     font-size: 50px;
     display: block;
     margin: 0 auto;
-    margin-top: 150px
+    margin-top: 125px
 }
 input[type=submit]{
     background-color: #000000;
-    border: 6px solid white;
+    border: 3px solid white;
     border-radius: 10px;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
 }
 h1 {
   color: white;
