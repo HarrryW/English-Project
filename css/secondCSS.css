@@ -12,7 +12,7 @@ input[type=password]:focus{
     font-size: 50px;
     display: block;
     margin: 0 auto;
-    margin-top: 125px;
+    margin-top: 100px;
     background-image: url('../padlock.png');
    /* background-position: 10px 10px; 
     background-repeat: no-repeat;*/
@@ -29,7 +29,7 @@ input[type=password]{
     color: black;
     display: block;
     margin: 0 auto;
-    margin-top: 125px;
+    margin-top: 100px;
     background-image: url('../padlock.png');
    /* background-position: 10px 10px; 
     background-repeat: no-repeat;*/
@@ -48,7 +48,7 @@ button{
     font-size: 50px;
     display: block;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 button:hover{
@@ -60,7 +60,7 @@ button:hover{
     font-size: 50px;
     display: block;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 
@@ -70,15 +70,15 @@ h1 {
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 2px;
   text-align: center;
-  margin-top: 75px;
-  font-size: 50px
+  margin-top: 275px;
+  font-size: 60px
 }
 h2 {
-  color: white;
+  color: black;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 2px;
-  text-align: left;
-  margin-top: 75px;
-  font-size: 50px
+  text-align: center;
+  margin-top: 20px;
+  font-size: 25px
 }
 
