@@ -8,8 +8,12 @@
         $(document).ready(function(){
             $("button").click(function(){
                 $('h1').html("......");
-                $('button').css('curser', 'wait');
-                setTimeout(relocation, 2000);
+                $('html').css('cursor', 'wait');
+                $('body').css('cursor', 'wait');
+                $('button').css('cursor', 'wait');
+                $('#memes').css('cursor', 'wait');
+                setTimeout(relocation, 5000);
+
             });
          $('#memes').submit(function(){
                 return false;
