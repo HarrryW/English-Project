@@ -5,18 +5,20 @@
     <link type='text/css' href='css/thirdCSS.css' rel='stylesheet'>
     <link href='Ubunutu.css' rel='stylesheet' type='text/css'>
     <script src="jquery1-12-04.js"></script>
+    <script src='js/second.js'></script>
   </header>
   <script>
       $(function(){
-       $("button").click(function(){
+        var numberCon = totalConned();
+        $("#fresh").click(function(){
          window.location.href='index.html'
-       });
-
+        });
+        $('h3').html(numberCon);
       
     
   
       });
-
+      
 
 
   </script>
@@ -31,6 +33,7 @@
         <li><strong>-</strong>Have a wide variety of passwords, don't use an important password for untrustworthy sites!</li>
         <li><strong>-</strong>Be careful where you use any of your passwords, we're becoming more and more vulnerable to websites being hijacked and people's information being stolen! </li>
       </ul>
-      <button> Restart! </button>
+      <button id='fresh'> Restart! </button>
+      <h3>Hello</h3>
   </body>
 </html>

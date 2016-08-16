@@ -5,8 +5,9 @@
         function relocationTwo(){
             window.location.href="thirdPage.html"
         }
+
         $(document).ready(function(){
-            $("button").click(function(){
+            $("#dank").click(function(){
                 $('h1').html("......");
                 $('html').css('cursor', 'wait');
                 $('body').css('cursor', 'wait');
